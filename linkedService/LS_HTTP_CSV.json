@@ -1,0 +1,12 @@
+{
+	"name": "LS_HTTP_CSV",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
