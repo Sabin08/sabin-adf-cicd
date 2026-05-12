@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sabin-adf"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"LS_ADLS_Bronze_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_Bronze_properties_typeProperties_url": {
+			"value": "https://sabinadelsstorage.dfs.core.windows.net"
+		},
+		"LS_HTTP_CSV_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
