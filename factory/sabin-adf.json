@@ -1,0 +1,15 @@
+{
+	"name": "sabin-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b292db71-5a9f-43bd-9aa4-673090a0774d",
+		"tenantId": "6034d6eb-961e-4dc4-878c-32397823ce25"
+	}
+}
